@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+feature_store/registry.db
+feature_store/values/*.parquet
+.pytest_cache/
+_run*
+*.swp
+.vscode/
