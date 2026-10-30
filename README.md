@@ -102,12 +102,16 @@ python -m pytest tests/ -v
 ├── feature_spec.md            # Confirmed feature design
 ├── data_dictionary.md         # Raw data exploration notes
 ├── candidate_features_proposal.md
-├── VERSION_COMPARISON.md      # Runtime version comparison report
-├── FEATURE_LINEAGE.md         # Source→transform→store lineage
-├── PARITY_CHECK.md            # Train/score parity design and mutation test
-├── ARTIFACT_NOTES.md          # Self-critique and known limitations
-├── review_log.md              # Review findings and bug fixes
-└── README.md                  # This file
+├── outputs/artifacts/           # Generated reports
+│   ├── VERSION_COMPARISON.md
+│   ├── FEATURE_LINEAGE.md
+│   ├── PARITY_CHECK.md
+│   ├── ARTIFACT_NOTES.md
+│   └── review_log.md
+├── skills/churn-feature-pipeline/
+│   ├── skill.md
+│   └── README.md
+├── feature_spec.md
 ```
 
 ## Key design decisions

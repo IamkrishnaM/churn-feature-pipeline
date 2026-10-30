@@ -4,6 +4,6 @@ __pycache__/
 feature_store/registry.db
 feature_store/values/*.parquet
 .pytest_cache/
-_run*
-*.swp
 .vscode/
+*.swp
+_DO_NOT_SUBMIT_/
